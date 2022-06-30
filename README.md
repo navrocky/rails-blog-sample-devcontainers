@@ -30,3 +30,19 @@ bin/rails server
 ```
 
 Done! :tada: Use `admin@example.com` as the user email and `123456` as the password to log in to the admin panel.
+
+## Run in VSCode remote container
+
+Open `Command palette`, execute `Remote-containers: Open Folder in Container`, wait until all startup processes are complete.
+
+Run in terminal:
+
+```sh
+bundle install
+rails db:setup
+rails s -b 0.0.0.0
+```
+
+Open in your browser blog: http://localhost:3000
+
+Admin panel: http://localhost:3000/admin

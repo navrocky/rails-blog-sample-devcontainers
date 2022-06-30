@@ -1,0 +1,12 @@
+{
+	"name": "Ruby",
+	"dockerComposeFile": "./docker-compose.yml",
+	"service": "dev",
+	"workspaceFolder": "/workspace",
+	"shutdownAction": "stopContainer",
+	"settings": {},
+	"extensions": [
+		"castwide.solargraph", "eamodio.gitlens"
+	],
+	"remoteUser": "user"
+}
